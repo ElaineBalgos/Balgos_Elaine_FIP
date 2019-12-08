@@ -1,7 +1,7 @@
 # Cheesy Place Website
 
 
-![Chessy Place!](/images/logo.svg "Cheesy Place, © EBalgos 2019")
+![Chessy Place!](/images/logo.jpg "Cheesy Place, © EBalgos 2019")
 
 
 ### Cheesy Place, is a cheese parlour where you can shop a few varieties  of cheese from mid-range to premium quality cheese. There's also a get together held during last Friday of the month where you are able to meet and greet fellow cheese lovers.
