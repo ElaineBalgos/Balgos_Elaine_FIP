@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>CheesyPlace - Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+            <h1 class="hidden">CP Website</h1>
+            <header class="mainHeader">
+                <div class="logoHeader">
+                    <img src="images/logo.svg" alt="ChessyPlaceLogo">
+                </div>
+
+                <nav class="mainNav">
+                    <h2 class="hidden">MAIN NAV</h2>
+                        <ul>
+                            <li><a href="home.html">HOME</a></li>
+                            <li><a href="gallery.html">GALLERY</a></li>
+                            <li><a href="order.html">ORDER</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                </nav>
+            </header>
+        <main>
+            <section id="contactArea"><!--start contactArea-->
+                <h2 class="hidden">Contact form</h2>
+                <p id="contactText">QUERIES / FEEDBACKS
+            </p> 
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email: (will not be published)</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="message">Message:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                    
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+            </section><!--end contactArea-->
+
+            <section>
+                <section id="mapArea">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.353772610954!2d-81.20175432080973!3d43.012940279250586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eed0db33e1e9f%3A0xa8babc4a5dff4f2d!2s1001%20Fanshawe%20College%20Blvd%2C%20London%2C%20ON%20N5V%202A5!5e0!3m2!1sen!2sca!4v1575779967782!5m2!1sen!2sca" width="450" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <p>
+                <h3>ADDRESS</h3><
+                <h3>1001 Fanshawe College Blvd, London, ON N5Y 5R6</h3><br>
+                <h3>PHONE</h3>
+                <h3>XXX-XXX-XXXX</h3><br>
+                <h3>EMAIL</h3><br>
+                <h3>contacts@cheesyplace.com</h3>
+                </section>
+            </section> 
+        </main>
+
+        <footer class="mainFooter">
+      <div class="LogoNav">
+        <div class="logoFooter">
+          <img src="images/logo.svg" alt="ChessyPlaceLogo" width="160" height="45" id="logoFooter">
+        </div>
+        <nav class="footerNav">
+          <h2 class="hidden">Footer navigation</h2>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                  <li><a href="gallery.html">GALLERY</a></li>
+                  <li><a href="order.html">ORDER</a></li>
+                  <li><a href=contact.html>CONTACT</a></li>
+              </ul>
+        </nav>
+      </div>  
+
+      <div class="socialMedia">
+        <h2 class="hidden">Social Media</h2>
+        <ul id="iconNav">
+            <li id="facebook">
+              <a href="http://www.facebook.com">
+                <img src="images/fb.svg" alt="facebook">
+              </a>
+            </li>
+            <li id="twitter">
+              <a href="http://www.twitter.com">
+                <img src="images/twitter.svg" alt="twitter">
+              </a>
+            </li>
+              <li id="instagram">
+              <a href="http://www.instagram.com">
+                <img src="images/ig.svg" alt="twitter">
+              </a>
+            </li>
+            <li id="youtube">
+              <a href="http://www.youtube.com">
+                <img src="images/yt.svg" alt="youtube">
+              </a>
+           </li>
+        </ul>
+      </div>  
+    </footer>
+      <div class="copyright">© E Balgos 2019</div>
+    </div>
+</body>
+</html>
