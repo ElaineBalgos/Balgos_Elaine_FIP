@@ -238,13 +238,11 @@ p #salesText, #eventsText {
 /*-- Order Page --*/
 
 #mainContact {
-  width: 940px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 980px;
+  height: 710px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -253,7 +251,6 @@ p #salesText, #eventsText {
   color: white;
   background-color: #8d773a;
   margin-bottom: 40px;
-  padding: 8px 0px 8px 5px;
   width: 940px;
 }
 
@@ -268,15 +265,15 @@ p #salesText, #eventsText {
 #contactText {
 	font-size: 35px;
 	margin-bottom: 30px;
-	width: 450px;
+	width: 430px;
 	color: white;
-	padding-left: 5px;
 	padding-top: 10px;
 }
 
 #contactForm {
   margin-top: 30px;
-  color: white;
+  color:white;
+  height: 640px;
 }
 
 fieldset {
@@ -319,6 +316,11 @@ input, textarea  {
 
 #mapArea {
   width: 450px;
+  height: 715px;
+  background: #8d773a;
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica;
 }
 
 
@@ -330,8 +332,10 @@ input, textarea  {
 
 #mapArea ul {
   list-style-type: none;
-  padding: 0;
-} 
+  padding-left: 10px;
+  padding-top: 10px;
+  color: white;
+}  
 
 
 
